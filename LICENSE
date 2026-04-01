@@ -1,0 +1,11 @@
+The instances in this repository are sourced from the MIPLIB 2017 library and other public collections.
+
+MIPLIB 2017
+============
+These instances are provided for scientific purposes. If you use MIPLIB 2017 instances in a publication, please cite the following paper:
+
+Gleixner, A., Hendel, G., Gamrath, G. et al. The MIPLIB 2017, Collection and New Trends in Mixed-Integer Programming. Math. Prog. Comp. (2021). https://doi.org/10.1007/s12532-020-00194-3
+
+Official Website: https://miplib.zib.de/
+
+All other instance collections will have their own license and citation information in their respective subdirectories.
