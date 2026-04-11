@@ -107,24 +107,6 @@ The conclusion of Le Bodic & Nemhauser (2015) flags the likely fix:
 > instance during preprocessing, branching or cut generation) may be
 > needed for MIP solvers to efficiently solve these instances."*[^1]
 
-Anecdotally, modern solvers with aggressive presolve (e.g. COPT)
-appear to handle the `chromaticindex` family in roughly constant time
-— essentially at the root, before real branch-and-bound begins. We
-don't have a citable write-up for the specific technique being used
-in any particular solver, but the observed behaviour lines up exactly
-with what the 2015 paper calls for. Treat that paragraph as an open
-observation, not a result.
-
-Two more recent papers continue the line of investigation into the
-connection between branching, tree size, and performance:
-
-- **Estimating the Size of Branch-and-Bound Trees** — Hendel, Anderson,
-  Le Bodic et al. (2022)[^3]. From the same first author; proves that
-  B&B tree size cannot even be approximated within a factor of 2 for
-  general binary programs.
-- **Decomposition Branching for Mixed Integer Programming** — Yıldız,
-  Boland, Savelsbergh (2022)[^4]. A branching-strategy paper that
-  cites the origin.
 
 ## References
 
@@ -136,11 +118,3 @@ connection between branching, tree size, and performance:
       above, freely available on optimization-online:
       <https://optimization-online.org/2014/04/4324/>
       ([PDF](https://optimization-online.org/wp-content/uploads/2014/04/4324.pdf))
-[^3]: Hendel, G., Anderson, D., Le Bodic, P., et al. (2022).
-      *Estimating the Size of Branch-and-Bound Trees.* INFORMS
-      Journal on Computing.
-      [DOI](https://doi.org/10.1287/ijoc.2021.1103)
-[^4]: Yıldız, B., Boland, N., & Savelsbergh, M. (2022).
-      *Decomposition Branching for Mixed Integer Programming.*
-      Operations Research.
-      [DOI](https://doi.org/10.1287/opre.2021.2210)
