@@ -99,8 +99,6 @@ The paper is explicit that its deeper branching-rule analysis applies
 to **SCIP only** — the authors cannot read CPLEX or GUROBI internals,
 so the black-box empirical numbers are all they can say there[^1].
 
-## The paper's call, and what has happened since
-
 The conclusion of Le Bodic & Nemhauser (2015) flags the likely fix:
 
 > *"New techniques (e.g., exploiting structure or symmetry, for
