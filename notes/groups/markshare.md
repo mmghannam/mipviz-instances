@@ -31,9 +31,6 @@ generators.
   (2002) extended the Aardal et al. approach to a broader class of
   market-share–like equality-constrained IPs and solved larger
   instances that resisted pure LLL.
-- **Feasibility pumps and diving heuristics** are the typical way
-  modern solvers find their first feasible solution on these
-  instances; proving optimality is the hard part.
 
 ## References
 
